@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sean Diggs Portfolio</title>
 </head>
-<body>
+<body id="home">
    <header>
         <h1>Sean Diggs Portfolio</h1>
         <nav>
@@ -16,7 +16,7 @@
         </nav>
    </header>
    <main>
-        <section>
+        <section id="about">
             <h2>About Me</h2>
             <p>
                 I’m a Frontend Developer dedicated to building scalable, user-centric web applications with React, TypeScript, and modern JavaScript. Backed by extensive hands-on training through LaunchCode, Scrimba, and Dave Gray's roadmap, I combine creative UI design with rigorous engineering practices—including Test-Driven Development (TDD) with Jest, clean architecture, and seamless API integration.
@@ -25,7 +25,7 @@
                 With a strong foundation in modern developer tooling (Git, Node.js, Tailwind CSS) and a background rooted in collaboration and workflow optimization, I love turning complex problems into intuitive digital experiences. I’m ready to bring adaptability and technical precision to a dynamic engineering team.
             </p>
         </section>
-        <section>
+        <section id="skills">
             <h2>Current Tech Stack Skills</h2>
             <table>
                 <tr>
@@ -80,17 +80,17 @@
                 </tr>
             </table>
         </section>
-        <section>
+        <section id="contact">
             <h2>Contact Me</h2>
             <form>
                 <label for="fullname">Full Name</label>
                 <input type="text" id="fullname" name="fullname" placeholder="Your Name">
     
-                <label for="fullname">Email</label>
+                <label for="email">Email</label>
                 <input type="text" id="email" name="email" placeholder="Your Email">
     
                 <label for="fullname">Message</label>
-                <textarea type="text" id="message" name="message" placeholder="Your Message" style="height: 200px"></textarea>
+                <textarea id="message" name="message" placeholder="Your Message" style="height: 200px"></textarea>
     
                 <input type="submit" value="Submit">
             </form>
