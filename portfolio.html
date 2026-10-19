@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <title>Sean Diggs Portfolio</title>
 </head>
 <body id="home">
@@ -27,7 +28,7 @@
         </section>
         <section id="skills">
             <h2>Current Tech Stack Skills</h2>
-            <table>
+            <table class="grid">
                 <tr>
                     <th>Skill</th>
                     <th>Proficiency</th>
@@ -83,16 +84,16 @@
         <section id="contact">
             <h2>Contact Me</h2>
             <form>
-                <label for="fullname">Full Name</label>
+                <label for="fullname" class="form-label">Full Name</label>
                 <input type="text" id="fullname" name="fullname" placeholder="Your Name">
     
-                <label for="email">Email</label>
+                <label for="email" class="form-label">Email</label>
                 <input type="text" id="email" name="email" placeholder="Your Email">
     
-                <label for="fullname">Message</label>
+                <label for="fullname" class="form-label">Message</label>
                 <textarea id="message" name="message" placeholder="Your Message" style="height: 200px"></textarea>
     
-                <input type="submit" value="Submit">
+                <input type="submit" class="button" value="Submit">
             </form>
         </section>
         <br>
